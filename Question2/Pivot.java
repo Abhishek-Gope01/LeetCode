@@ -1,5 +1,8 @@
 public class Pivot {
+    public static void hello(String str){
+        System.out.println(str);
+    }
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        hello("hello");
     }
 }
