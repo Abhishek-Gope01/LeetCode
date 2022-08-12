@@ -9,8 +9,6 @@ public class RunningSum {
     }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int[] ans = new int[5];
-        ans = runningSum(arr);
-        System.out.println(Arrays.toString(ans));
+        System.out.println(Arrays.toString(runningSum(arr)));
     }
 }
